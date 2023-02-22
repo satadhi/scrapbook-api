@@ -1,0 +1,46 @@
+{
+  "name": "scrapbook-api",
+  "version": "1.0.0",
+  "description": "Facebook clone using MERN",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "gridfs-stream": "^1.1.1",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2"
+  },
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint --fix ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satadhi/scrapbook-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satadhi/scrapbook-api/issues"
+  },
+  "homepage": "https://github.com/satadhi/scrapbook-api#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "eslint": "^8.34.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^4.9.5"
+  }
+}
